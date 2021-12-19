@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaMart- an online shop</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" />
+    <!-- css linkup -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- bootstrap linkup -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body>
+
+<header>
+
+
+    <!-- navbar  -->
+    <div class="container">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="./assets/images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <!-- carousel -->
+    <div class="container mt-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1>Mi LED TV 4A PRO 32</h1>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                        </p>
+                        <h1 class="price-txt">$1289</h1>
+                        <button class="btn buy-btn">Buy Now <i class="bi bi-arrow-right"></i></button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="./assets/images/banner-images/tv.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row d-flex align-items-center">
+                      <div class="col-md-7">
+                        <h1>Havit Headphone</h1>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                        </p>
+                        <h1 class="price-txt mb-2">$1289</h1>
+                        <button class="btn buy-btn">Buy Now <i class="bi bi-arrow-right"></i></button>
+                      </div>
+                      <div class="col-md-5"><img src="./assets/images/banner-images/headphone.png" class="d-block w-100" alt="..."></div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row d-flex align-items-center">
+                      <div class="col-md-7">
+                        <h1>Havit Headphone</h1>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                        </p>
+                        <h1 class="price-txt mb-2">$1289</h1>
+                        <button class="btn buy-btn">Buy Now <i class="bi bi-arrow-right"></i></button>
+                      </div>
+                      <div class="col-md-5">
+                        <img src="./assets/images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- categories card  -->
+    <div class="container mt-5">
+        <div class="section-title">
+            <h2>Categories</h2>
+        </div>
+        <div class="card-wrapper">
+            <div class="row">
+                
+                <div class="  col-md-4 ">
+                    <div class="first-card d-flex align-items-center justify-content-center">
+                        <h3>
+                            Watch
+                        </h3>
+                        <img src="./assets/images/categories/watch.png" alt="">
+                    </div>                  
+                    
+                </div>
+                <div class="col-md-4 ">
+                    <div class="second-card d-flex align-items-center justify-content-center">
+                        <h3>Shoes</h3>
+                        <img src="./assets/images/categories/shoes.png" alt="">
+                    </div>                    
+                </div>
+                <div class="col-md-4 ">
+                    <div class="third-card d-flex align-items-center justify-content-center">
+                        <h3>Bag</h3>
+                        <img src="./assets/images/categories/bag.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</header>
+<!-- Shoes Card  -->
+<div class="container">
+  <div class="section-title mt-5">
+    <h2>Shoes</h2>
+  </div>
+  <div class="shoes-card-wrapper">
+    <div class="row">
+      <div class="col-md-4 single-shoe-card">
+        <img width="100%" src="./assets/images/shoes/shoe-1.png" alt="">
+        <h4>Reebok Dart Men’s Shoes</h4>
+        <p class="product-desc">Some quick example text to build on the card title.</p>
+        <p class="price-txt">$999</p>
+        <button class="btn buy-btn-2">
+          Buy Now <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+      <div class="col-md-4 single-shoe-card">
+        <img width="100%" src="./assets/images/shoes/shoe-2.png" alt="">
+        <h4>Reebok Pump</h4>
+        <p class="product-desc">Some quick example text to build on the card title.</p>
+        <p class="price-txt">$999</p>
+        <button class="btn buy-btn-2">
+          Buy Now <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+      <div class="col-md-4 single-shoe-card">
+        <img width="100%" src="./assets/images/shoes/shoe-3.png" alt="">
+        <h4>Reebok All Terrain</h4>
+        <p class="product-desc">Some quick example text to build on the card title.</p>
+        <p class="price-txt">$999</p>
+        <button class="btn buy-btn-2">
+          Buy Now <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Backpack Card  -->
+<div class="container">
+  <div class="section-title mt-5">
+    <h2>Backpack</h2>
+  </div>
+  <div class="shoes-card-wrapper">
+    <div class="row">
+      <div class="col-md-4 single-shoe-card">
+        <img width="100%" src="./assets/images/bags/bag-1.png" alt="">
+        <h4>Ison Backpack</h4>
+        <p class="product-desc">Some quick example text to build on the card title.</p>
+        <p class="price-txt">$999</p>
+        <button class="btn buy-btn-2">
+          Buy Now <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+      <div class="col-md-4 single-shoe-card">
+        <img width="100%" src="./assets/images/bags/bag-2.png" alt="">
+        <h4>Biaowang Backpack </h4>
+        <p class="product-desc">Some quick example text to build on the card title.</p>
+        <p class="price-txt">$999</p>
+        <button class="btn buy-btn-2">
+          Buy Now <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+      <div class="col-md-4 single-shoe-card">
+        <img width="100%" src="./assets/images/bags/bag-3.png" alt="">
+        <h4>Dxyizu WS54 Smart </h4>
+        <p class="product-desc">Some quick example text to build on the card title.</p>
+        <p class="price-txt">$999</p>
+        <button class="btn buy-btn-2">
+          Buy Now <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact section  -->
+<div class="container mt-5 d-flex justify-content-center p-5 align-items-center orange-bg">
+    <div class="contact-wrapper text-center">
+        <h2 class="mb-3">LET'S STAY IN TOUCH</h2>
+        <p class="mb-5">Get updates on sales specials and more</p>
+        <form action="#">
+            <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn send-btn" type="button" id="button-addon2">Button</button>
+              </div>
+        </form>
+    </div>
+</div>
+
+
+    
+    <!-- Javscript linkup  -->
+    <script src="./assets/js/scripts.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

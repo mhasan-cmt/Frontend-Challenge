@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins_medium;
+}
+@font-face {
+    font-family: poppins_medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+.carousel-item{
+    background-color: #FEEAE9;
+    padding: 1rem 2rem;
+}
+.btn.buy-btn{
+   background-color: #FF589B;
+   color: white;
+   border-radius: .3rem;
+}
+.btn.send-btn{
+    background-color: #FF589B;
+    color: white;
+}
+.price-txt{
+    color: #FF589B;
+}
+.carousel-indicators button.active{
+    background-color: #FF589B;
+}
+.first-card, 
+.second-card,
+.third-card{
+    color: white;
+    padding: 1rem;
+}
+.first-card{
+    background-image: linear-gradient(to right, #B97226,#B99016);    
+}
+.second-card{
+    background-image: linear-gradient(to right, #B92A59,#B92D5B);
+}
+.third-card{
+    background-image: linear-gradient(to right, #345FD2,#3E0FA5);
+}
+
+.orange-bg{
+    background-color: #FEEAE9;
+}
+
+.btn.buy-btn-2{
+    background-color: #000000;
+    color: white;
+}
+.btn.buy-btn-2:hover{
+    color: white;
+}
+.shoes-card-wrapper .single-shoe-card{
+    box-shadow: 5px 10px 8px #888888;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+.shoes-card-wrapper .single-shoe-card img{
+    margin-bottom: 2rem;
+}
+.shoes-card-wrapper .single-shoe-card .product-desc{
+    margin-bottom: 3rem;
+}
+.shoes-card-wrapper .single-shoe-card:hover{
+    transform: scale(1.02);
+}
