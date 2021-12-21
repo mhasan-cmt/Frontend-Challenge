@@ -1,0 +1,88 @@
+@font-face {
+    font-family: poppins_bold;
+    src: url(../../../hotgadgets/assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family:poppins_light ;
+    src: url(../../../hotgadgets/assets/fonts/Poppins-Light.ttf);
+}
+:root{
+    --primary:#EC4C77;
+    --secondary:#EC5093;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/header-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.hero-section,
+.bio-section{
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+.name{
+    font-family: 'poppins_bold';
+    color: var(--primary);
+}
+.btn.hire-btn{
+    background-color: var(--primary);
+    color: white;
+    transition: .25s all ease-in-out;
+    border: 1px solid #EC4C77;
+}
+.btn.hire-btn:hover{
+    background-color: transparent;
+    color: var(--primary);
+}
+.bio-desc{
+    font-family: 'poppins_light';
+}
+section.bio{
+    background-image: url(../images/biography-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+section.latest-work{
+    padding: 2rem 0;
+    background-image: url(../images/latest-work-bg.png);
+}
+.work-wrapper div img{
+    width: 100%;
+}
+.work-wrapper div {
+    padding: .5rem 2rem;
+}
+.testimony-author{
+    font-family: 'poppins_bold';
+    font-size: 1rem;
+}
+.testi{
+    color: black;
+    font-weight: 500;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.contact-wrapper{
+    background-image: linear-gradient(to right, #EC4C77, #EC5093);
+    padding: 4rem 0;
+    color: white;
+    margin-bottom: .2rem;
+    margin-top: .5rem;
+}
+.contact-wrapper p{
+    font-size: 1.2rem;
+}
+footer{
+    background-image: url(../images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+}
